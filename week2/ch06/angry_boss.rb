@@ -3,4 +3,4 @@
  puts 'So you walk up to your boss'
  puts 'What do you demand?'
  demand = gets.chomp
- puts 'Boss responds: ' + '"' + demand.upcase + '" GET OUT OF HERE,YOU\'RE FIRED!!!!!'
+ puts 'Boss responds: "' + demand.upcase + '" GET OUT OF HERE,YOU\'RE FIRED!!!!!'
