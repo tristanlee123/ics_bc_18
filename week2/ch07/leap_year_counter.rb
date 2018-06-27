@@ -7,8 +7,8 @@ puts 'Ok so your year range is from ' + year_range_start.to_s + ' to ' + year_ra
 puts 'These are your leap years!'
 while year_range_start <= year_range_end
   if year_range_start%4 == 0
-  	if  year_range_start%100 != 0 || year_range_start%400 == 0
-      puts year_range_start
+  if  year_range_start%100 != 0 || year_range_start%400 == 0
+    puts year_range_start
     end
   end
   year_range_start = year_range_start + 1
